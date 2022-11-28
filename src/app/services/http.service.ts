@@ -2,6 +2,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environement as env } from 'src/environements/environement';
 import { Observable } from 'rxjs';
+import { APIResponse, Game } from '../model';
 
 
 @Injectable({
